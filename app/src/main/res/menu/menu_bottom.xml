@@ -5,11 +5,11 @@
         android:icon="@drawable/mikhail"
         android:title="@string/mikhail" />
     <item
-        android:id="@+id/blankFragment"
+        android:id="@+id/blankFragment2"
         android:icon="@drawable/dmitry"
         android:title="@string/dmitry" />
     <item
-        android:id="@+id/blankFragment2"
+        android:id="@+id/blankFragment"
         android:icon="@drawable/denis"
         android:title="@string/denis" />
 </menu>
