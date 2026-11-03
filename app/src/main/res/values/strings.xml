@@ -14,4 +14,6 @@
     <string name="mikhail">Mikhail</string>
     <string name="dmitry">Dmitry</string>
     <string name="denis">Denis</string>
+    <string name="dmitry_to_second_fragment">Перейти ко второму фрагменту</string>
+    <string name="dmitry_to_third_fragment">Перейти к третьему фрагменту</string>
 </resources>
