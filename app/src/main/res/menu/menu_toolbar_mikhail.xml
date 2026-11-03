@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstAttractionFragment"
+        android:title="@string/ermitage" />
+    <item
+        android:id="@+id/secondAttractionFragment"
+        android:title="@string/peterhof" />
+    <item
+        android:id="@+id/thirdAttractionFragment"
+        android:title="@string/erarta" />
+</menu>
