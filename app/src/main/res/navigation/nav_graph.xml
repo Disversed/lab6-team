@@ -18,14 +18,14 @@
         android:name="com.lab6.mikhail.ThirdAttractionFragment"
         android:label="@string/erarta" />
     <fragment
-        android:id="@+id/blankFragment"
-        android:name="com.lab6.denis.BlankFragment"
-        android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" />
-    <fragment
         android:id="@+id/blankFragment2"
         android:name="com.lab6.dmitry.BlankFragment2"
         android:label="fragment_blank2"
         tools:layout="@layout/fragment_blank2" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.lab6.denis.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_pushkin" />
 
 </navigation>
