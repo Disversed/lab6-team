@@ -15,7 +15,7 @@ class BiographyFragment : Fragment(R.layout.fragment_biography){
         val btnNext = view.findViewById<Button>(R.id.btnNext)
 
         btnNext.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_biographyFragnebt_to_worksFragment)
+            Navigation.findNavController(view).navigate(R.id.action_biographyFragment_to_worksFragment)
         }
 
     }
