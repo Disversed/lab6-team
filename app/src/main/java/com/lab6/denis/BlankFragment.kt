@@ -1,21 +1,30 @@
 package com.lab6.denis;
 
-import android.os.Bundle;
+import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
+import com.lab6.R
 
-import androidx.fragment.app.Fragment;
+class BlankFragment : Fragment(R.layout.fragment_pushkin) {
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+    override fun onViewCreated(
+        view: View,
+        savedInstanceState: Bundle?
+    ) {
+        super.onViewCreated(view, savedInstanceState)
 
-import com.lab6.R;
+        val btnNext = view.findViewById<Button>(
+            R.id.btnNext
+        )
 
-public class BlankFragment extends Fragment {
+        btnNext.setOnClickListener {
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_pushkin, container, false);
+            Navigation.findNavController(view)
+                .navigate(
+                    R.id.action_blankFragment_to_biographyFragment
+                )
+        }
     }
 }
